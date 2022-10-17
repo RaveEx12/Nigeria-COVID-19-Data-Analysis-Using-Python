@@ -88,6 +88,7 @@ plot a viz to further explain the findings from the calculation of daily infecti
 #### Effect of covid19 on the Economy
 - used the pandas melt() method to covert the gdp data from a wide format to a long format
 - I sorted the data frame with the year column
+- I filtered the gdp data frame to obtain the GDP values for the year 2020
 - filtered the data frame to obtain the index number of Q2 of 2020 gdp Q2 2020
 
 #### Viz 1
@@ -124,4 +125,4 @@ plot a viz to further explain the findings from the calculation of daily infecti
 
 # Future Work
 
-In the future I will include regression lines to determine the future impact if the covid19 virus is not contained. I will also like to get sample data from authentic good source to measure impact through consumption, investment, and international trade) and stability (central government budgets, prices, the money supply, and the balance of payments
+In the future I will include predictive analysis with required data to determine the future impact if the covid19 virus is not contained. I will also like to get sample data from authentic good sources to measure impact through consumption, investment, and international trade) and stability (central government budgets, prices, the money supply, and the balance of payments.
