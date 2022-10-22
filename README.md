@@ -21,7 +21,7 @@ Data Scientist Microdegree Capstone Project
 - also used the pandas read method to load the external data sets
 
 ## Exploring the data
-- used the head() and the info to get basic information on the data
+- used the head() and the info() to get basic information on the data
 
 ## Data Cleaning and Preparation
 #### ncdc_df
