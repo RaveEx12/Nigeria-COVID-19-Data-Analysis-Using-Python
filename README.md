@@ -21,7 +21,7 @@ Data Scientist Microdegree Capstone Project
 - also used the pandas read method to load the external data sets
 
 ## Exploring the data
-- used the head() and the info to get basic information on the data
+- used the head() and the info() to get basic information on the data
 
 ## Data Cleaning and Preparation
 #### ncdc_df
@@ -79,6 +79,7 @@ plot a viz to further explain the findings from the calculation of daily infecti
 - plotted Overall CCVI Index and confirmed cases against states on the same axis
 
 #### Correlation between variables
+- used the numpy log() function to reduce the no_lab_confirmed_cases to efficiently visualize the correlations
 - used sns.regplot() to plot lab confirmed cases against population density to check correlation
 - used the plt.title() to add title and used 
 - used plt.ylabel() to add y axis label
@@ -112,16 +113,32 @@ plot a viz to further explain the findings from the calculation of daily infecti
 - I saved the plot using the plt.savefig() method in matplotlib
 
 #### Viz 3
--used plt.style.use() to introduce the style of the plot
+- used plt.style.use() to introduce the style of the plot
 - seaborn FacetGrid() was used to create a facetgrid and subsequently,
 - map_dataframe was used to map the variable for ploting the visuals
--plt.legend() was used to add legend at the upper left side of the plot
+- plt.legend() was used to add legend at the upper left side of the plot
 - g.subplots_adjust() was used to adjust the plot for a title
 - g.fig.subtitle() was used to add a title to the plot
 - ylabel() was used to add a ylabel 
 - g.set_xticklabels() was used to set the rotation
 - added lagend with g.add_legend()
 - i ploted a horizontal line with the plt.axhline() method
+
+#### Viz 4
+- listed out the variables
+- used the numpy arange() and len() to create the ticks of the ylabels
+- reduced the height of each bar to 0.35
+- set the figure size to (6, 12) using the figure() and figsize() argument,
+- set the style to seaborn using the matplotlib style.use(),
+- visualize the state against initial budget,
+- added the revised budget to the plot
+- set the legend size and location using the plt.legend()
+- set the yticks label location and fontsize
+- set the xticks font size using the plt.xticks()
+- set the title and the font size using the plt.title()
+- set the xlabel and fontsize using the xlabel()
+- set the minimum and maximum value of xtickslabels using the plt.xlim() method
+- set the ylabel and the fontsize using the plt.ylabel()
 
 # Future Work
 
